@@ -1,3 +1,10 @@
+:root {
+  --pink-light: #ffc0cb;
+  --pink-darker: #db8594;
+  --lila: #b452cd;
+  --blue: #4169e1;
+}
+
 .comic-relief-regular {
   font-family: "Comic Relief", system-ui;
   font-weight: 400;
@@ -18,7 +25,16 @@
 }
 
 body {
-  background-color: pink;
+  background-color: var(--pink-light);
+}
+
+.darker {
+  background: var(--pink-darker);
+}
+
+.btn-branding {
+  background-color: var(--lila);
+  border-radius: 3px;
 }
 
 h1 {
@@ -26,10 +42,20 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  text-align: center;
+  padding: 40px;
 }
 
 h2 {
   font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  padding: 10px;
+}
+p {
+  font-family: "Comic Relief", system-ui;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
 }
