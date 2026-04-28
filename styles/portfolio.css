@@ -69,8 +69,19 @@ p {
   font-family: var(--default-font-family);
 }
 
+.about-section h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
 .about-section-content {
   margin: 30px;
+}
+
+.about-section-content p {
+  font-size: 14px;
 }
 
 .btn-branding {
