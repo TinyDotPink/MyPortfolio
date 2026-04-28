@@ -131,3 +131,29 @@ p {
     text-align: center;
   }
 }
+
+.logo {
+  max-width: 150px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+
+nav a:hover {
+  color: var(--branding-color);
+}
+
+nav li {
+  display: inline;
+  margin-left: 15px;
+}
+
+nav li.active a {
+  color: var(--branding-color);
+}
